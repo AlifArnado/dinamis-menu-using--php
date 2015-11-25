@@ -28,8 +28,10 @@
         $page = @$_GET["page"];
         $action = @$_GET["action"];
 
-        if ($page == "profil") {
-            echo "Menu Profil";
+        if ($page == "") {
+            include 'lib/home.php';
+        } else if ($page == "profil") {
+            include 'lib/profil.php';
         } else if ($page == "data") {
             if($action == "") { // jika kosong kembalikan ke home
                 echo "home";
@@ -43,9 +45,9 @@
                 echo "4041 Page Not Found"; // jika terjadi hal yang tidak diinginakan
             } // end menu dari sub menu
         } else if ($page == "contact") {
-            echo "Menu Contact";
+            include 'lib/contact.php';
         } else if ($page == "help") {
-            echo "Menu help";
+            include 'lib/help.php';
         } else {
             echo "4041 Page Not Found";
         }
