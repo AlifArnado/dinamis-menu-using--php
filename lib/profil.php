@@ -7,8 +7,11 @@
         ------------------------<br>
         Softskill Focus <br>
         -------------------------<br>
+        - Web Developer <br>
         - PHP Programmer <br>
+        - Backend dan Frontend Framework <br>
         - Linux System <br>
-        - SQL And NoSQL Database
+        - SQL And NoSQL Database <br>
+        - Analys System <br>
     </h5>
 </p>
